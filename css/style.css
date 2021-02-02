@@ -457,6 +457,7 @@ html{
         height: 6px;
         width: 30px;
         top: 12px;
+        left: 0px;
         transition: all 0.3s ease 0s;
     }
     .header_burger:before, 
@@ -769,3 +770,16 @@ img.col{
 padding-bottom: 50px;
 padding-top: 50px;
 }
+button.header_burger{
+background-color: #ffffff;
+border: 0px;
+text-decoration: none;
+}
+button:active, button:focus {
+    outline: none !important;
+  }
+  button::-moz-focus-inner {
+    border: 0 !important;
+  }
+  /** убирает линию обводки в бразерах
+**/

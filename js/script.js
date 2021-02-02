@@ -1,8 +1,7 @@
 $(document).ready(() => {
     $('.header_burger').click(function(){
         $('.header_burger, .header_menu').toggleClass('active');
-        $('body').toggleClass('lock');
-        
+        $('body').toggleClass('lock');   
 });
     $('.slider').slick({
         arrows: false,
@@ -21,3 +20,11 @@ $(document).ready(() => {
         variableWidht: false,
     });
 });
+/** 
+$(document).mouseup(function (e) {
+    var popup = $(".header_menu");
+    if (!$('active').is(e.target) && !popup.is(e.target) && popup.has(e.target).length == 0) {
+        popup.hide(500);
+    }
+});
+*/
