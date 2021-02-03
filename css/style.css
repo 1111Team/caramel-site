@@ -783,3 +783,41 @@ button:active, button:focus {
   }
   /** убирает линию обводки в бразерах
 **/
+.liner-wp{
+    height: 3px;
+    left: 0px;
+    background-color: #175c47;
+    z-index: 110;
+    bottom: 50px;
+    position: fixed;
+    text-align: center;
+}
+.footer{
+    display: block;
+    height: 50px;
+    width: 100%;
+    z-index: 109;
+    position: fixed;
+    background-color: #ffffff;
+    bottom: 0px;
+    left: 0px;
+    
+}
+.liner-wb{
+    height: 50px;
+   
+    background-color: #ffffff;
+    z-index: 110;
+}
+.row.wp{
+    background-color: #ffffff;
+    position: relative;
+    z-index: 110;
+    padding: 0px;
+}
+a.col.img{
+align-items: center;
+text-decoration: none;
+color: #175C47;
+text-align: center;
+}
