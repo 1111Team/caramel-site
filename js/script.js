@@ -1,7 +1,6 @@
 $(document).ready(() => {
     $('.header_burger').click(function(){
         $('.header_burger, .header_menu').toggleClass('active');
-        $('body').toggleClass('lock');
         });
     /**$(".header_burger,. ").on("click", "a", function(event) {
         event.preventDefault();
@@ -12,15 +11,15 @@ $(document).ready(() => {
     $('.slider').slick({
         arrows: false,
         dots: true,
-        adaptiveHeight: true,
+        adaptiveHeight: false,
         slidestoShow: 1,
-        slidestoScroll: 1,
-        speed: 470,
+        slidestoScroll: 3,
+        speed: 500,
         infinite: true,
         autoplay: true,
-        autoplayspeed: 1100,
+        autoplayspeed: 740,
         pauseonfocus: true,
-        pauseonover: true,
+        pauseonover: false,
         pauseondotshover: true,
         centerMode: false,
         variableWidht: false,
@@ -30,6 +29,5 @@ $(document).on('click', function(divclose)
     if($(divclose.target).closest(".header_burger.active").length == 0 )
     {
         $('.header_burger.active, .header_menu.active').toggleClass('active');
-        $('body').toggleClass('lock');
     }
 });

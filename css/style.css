@@ -813,3 +813,6 @@ text-decoration: none;
 color: #175C47;
 text-align: center;
 }
+.row.underfooterplugin{
+padding-bottom: 22px;
+}
