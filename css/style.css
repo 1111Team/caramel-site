@@ -579,7 +579,7 @@ html{
 }
 .header_worktime{
     z-index: 4;
-    margin-left: 8px;
+    margin-left: 0px;
     margin-right: 0px;
 }.header_whatsapp {
     z-index: 4;
@@ -830,11 +830,12 @@ button:active, button:focus {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
+    bottom: 64px;
 
 }
 .row.footer{
     display: block;
-    height: 53px;
+    height: 63px;
     width: 100%;
     z-index: 112;
     position: fixed;
@@ -858,7 +859,7 @@ a.col.img{
     font-weight: 700;
     padding-right: 0px;
     padding-left: 0px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .row.underfooterplugin{
 padding-bottom: 22px;
@@ -869,5 +870,5 @@ padding-bottom: 22px;
     margin-right: 0px;
     margin-left: 0px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
