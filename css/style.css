@@ -496,11 +496,11 @@ html{
     } 
     .header_menu{
         position: absolute;
-        top: -380%;
-        right: 22px;
-        left: 22px;
+        top: -447%;
+        right: 0px;
+        left: 0px;
         bottom: 50px;
-        background-color: #A6D7C7;
+        background-color: #ffffff;
         padding: 11px 0px 0px 0px;
         z-index: 2;
         transition: all 0s ease 0s;
@@ -510,8 +510,6 @@ html{
         position: fixed;
         top: 100px;
         transition: all 0 ease 0s;
-        right: 22px;
-        left: 22px;
         bottom: 50px;
         height: 100%;
         border-radius: 0px 0px 11px 11px;
@@ -525,19 +523,21 @@ html{
     .border3{
         position: relative;
         border: 3px solid #175C47!important;
-        margin: 11px 0px 11px 0px;
+        margin: 11px 11px 11px 11px;
         border-radius: 11px;
     }
     .header_list li {
         margin: 0px 0px 0px 0px;
-        padding: 22px 0px 22px 0px;
+        padding: 22px 22px 22px 22px;
+        background-color: #95c2b3;
+        border-radius: 8px;
     }
     a.header_link{
-        text-decoration-color:#95c2b3;
+        text-decoration-color:#175C47;
         font-weight: 900;
     }
     a.header_link:hover{
-        color:#175C47;
+        color:#95c2b3;
         text-decoration: none;
     }
     .content {
@@ -579,14 +579,16 @@ html{
 }
 .header_worktime{
     z-index: 4;
-    margin-right: 3px;
+    margin-left: 8px;
+    margin-right: 0px;
 }.header_whatsapp {
     z-index: 4;
-    margin-right: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
 
 }
-.header_logo svg{
-    max-width: 100%;
+.header_logo img{
+    max-width: 190px;
     display: block;
 }
 
@@ -814,37 +816,58 @@ button:active, button:focus {
   }
   /** убирает линию обводки в бразерах
 **/
-.liner-wp{
+.row.liner-wp{
     height: 3px;
+    width: 100%;
     left: 0px;
     background-color: #175c47;
-    z-index: 110;
-    bottom: 50px;
+    z-index: 111;
     position: fixed;
     text-align: center;
+    margin-right: 0px;
+    right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+
 }
-.footer{
+.row.footer{
     display: block;
-    height: 50px;
+    height: 53px;
     width: 100%;
     z-index: 112;
     position: fixed;
     background-color: #ffffff;
     bottom: 0px;
-    left: 0px;  
-}
-.row.wp{
-    background-color: #ffffff;
-    position: relative;
-    z-index: 110;
-    padding: 0px;
+    left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    right: 0px;  
 }
 a.col.img{
-align-items: center;
-text-decoration: none;
-color: #175C47;
-text-align: center;
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+    color: #175C47;
+    text-align: center;
+    font-weight: 700;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
 }
 .row.underfooterplugin{
 padding-bottom: 22px;
+}
+.row.wa{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
