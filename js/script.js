@@ -14,7 +14,7 @@ $(document).ready(() => {
         speed: 300,
         infinite: true,
         autoplay: true,
-        autoplayspeed: 1100,
+        autoplayspeed: 1000,
         pauseonfocus: true,
         pauseonover: false,
         pauseondotshover: true,
