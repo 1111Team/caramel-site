@@ -422,19 +422,23 @@ html{
 .header_list{
     display: flex;
     position: relative;
-    font-size: 8px;
-    line-height: 15px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 33px;
     z-index: 3;
 
 }
 .header_list li{
     list-style: none ;
-    margin: 0px 0px 0px 11px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 .header_link{
     color: rgb(23, 94, 73);
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 24px;
     text-decoration: none;
 }
 @media (max-width:768px){
@@ -491,26 +495,48 @@ html{
     } 
     .header_menu{
         position: absolute;
-        top: -110%;
+        top: -380%;
         right: 22px;
+        left: 22px;
+        bottom: 50px;
         background-color: #A6D7C7;
         padding: 11px 0px 0px 0px;
         z-index: 2;
-        transition: all 1.1s ease 0s;
+        transition: all 0s ease 0s;
 
     }
     .header_menu.active{
+        position: fixed;
         top: 100px;
-        transition: all 1.1s ease 0s;
-
+        transition: all 0 ease 0s;
+        right: 22px;
+        left: 22px;
+        bottom: 50px;
+        height: 100%;
+        border-radius: 0px 0px 11px 11px;
     }
     .header_list{
         display: block;
-        text-align: end;
-        padding: 0px 11px 0px;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        border: 0px;
+    }
+    .border3{
+        position: relative;
+        border: 3px solid #175C47!important;
+        margin: 11px 0px 11px 0px;
     }
     .header_list li {
-        margin: 0px 0px 15px 0px;
+        margin: 0px 0px 0px 0px;
+        padding: 22px 0px 22px 0px;
+    }
+    a.header_link{
+        text-decoration-color:#95c2b3;
+        font-weight: 900;
+    }
+    a.header_link:hover{
+        color:#175C47;
+        text-decoration: none;
     }
     .content {
         padding: 100px 0px 0px 0px;
@@ -526,7 +552,7 @@ html{
     .content_text p{
         margin: 0px 0px 0px 0px;
     }
-} 
+}
 .container {
     max-width: 780px;
     margin: 0px;
@@ -799,7 +825,7 @@ button:active, button:focus {
     display: block;
     height: 50px;
     width: 100%;
-    z-index: 109;
+    z-index: 112;
     position: fixed;
     background-color: #ffffff;
     bottom: 0px;
