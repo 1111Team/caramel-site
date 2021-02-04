@@ -459,6 +459,7 @@ html{
         top: 12px;
         left: 0px;
         transition: all 0.3s ease 0s;
+        border-radius: 3px;
     }
     .header_burger:before, 
     .header_burger:after{
@@ -469,6 +470,7 @@ html{
         height: 6px;
         left: 0px;
         transition: all 0.3s ease 0s;
+        border-radius: 3px;
     }
     .header_burger:before{
         top: 0;
@@ -752,6 +754,7 @@ img.col{
 .liner{
     height: 3px;
     background-color: #175c47;
+    border-radius: 3px;
 }
 #cold_drinks.row{
     color:#175c47;
@@ -766,8 +769,9 @@ img.col{
     height: 11px;
 }
 .row#anchor_1,.row#anchor_2,.row#anchor_3,.row#anchor_4,.row#anchor_5{
-padding-bottom: 50px;
-padding-top: 50px;
+padding-bottom: 55px;
+padding-top: 33px;
+border-radius: 3px;
 }
 button.header_burger{
 background-color: #ffffff;
