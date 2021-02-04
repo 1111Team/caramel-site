@@ -382,6 +382,7 @@ textarea {
 html{
     box-sizing: content-box;
     font-family: Comfortaa;
+    overflow-x: hidden; 
 }
 
 *, *::before, *::after{
@@ -584,7 +585,7 @@ html{
     margin-right: 4px;
 
 }
-.header_logo img{
+.header_logo svg{
     max-width: 100%;
     display: block;
 }
