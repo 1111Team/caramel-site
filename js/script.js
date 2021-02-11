@@ -20,6 +20,7 @@ $(document).ready(() => {
         pauseondotshover: true,
         centerMode: false,
         variableWidht: false,
+        touchthreshold: 25,
     });
 $(document).on('click', function(divclose)
 {
